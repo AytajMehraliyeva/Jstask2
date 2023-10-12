@@ -221,8 +221,8 @@
 // Əgər x>0 və y=0 isə 2x-y+3 ifadəsini hesablayın. 
 // Əgər x<0 və y>0 isə 3x+4y+3 ifadəsini hesablayın.
   
-// let x = 15;
-// let y = -10;
+// let x = parseInt(prompt("Eded dadxil edin"));
+// let y =parseInt(prompt("Eded dadxil edin"));
 // let z = 0;
 // console.log("Ededler: ",x,y);
 
