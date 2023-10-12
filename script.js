@@ -215,7 +215,7 @@
 //Task10
 // let x = 15;
 // let y = 10;
-let z = 0;
+// let z = 0;
 // console.log("Ededler: ",x,y);
 
 // if (x > 0 && y < 0) {
