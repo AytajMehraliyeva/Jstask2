@@ -1,4 +1,5 @@
-//Task1
+//Task1: Daxil edilən 1-12 arasındakı müsbət rəqəmlərdən hər hansı birinə uyğun olan ayın adını yazan proqram yazın. Məsələn 2 daxil edilsən Fevral yazılmalıdır.(switch ilə yazılmalıdır.)
+
 // let month = parseInt(prompt("Ededi daxil edin"))
 
 // switch (month) {
@@ -43,7 +44,7 @@
 
 
 
-//Task2
+//Task2 Daxil edilən müsbət ədədin 3 və 5 ədədinə eyni anda bölünüb-bölünmədiyini tapan proqram yazın. 
 // let num = parseInt(prompt("Eded daxil edin"))
 
 // if (num > 0) {
@@ -66,7 +67,7 @@
 
 
 
-//Task3
+//Task3 Daxil edilən müsbət ədədin 2-yə tam bölünüb-bölünmədiyini tapan proqram yazın. Əgər tam bölünürsə, consolda bölündü yazılsın,tam bölünmürsə qalıq hesablanıb yazılsın.
 // let num = parseInt(prompt("Eded daxil edin"))
 
 // if (num > 0) {
@@ -82,7 +83,7 @@
 
 
 
-//Task4
+//Task4 Daxil edilən 2 ədədin hasilinin müsbət yoxsa mənfi ədəd olmasını göstərən funksiya yazın.
 // let num = parseInt(prompt("Birinci ededi daxil edin"))
 // let num2 = parseInt(prompt("Ikinci ededi daxil edin"))
 
@@ -100,7 +101,7 @@
 
 
 
-//Task5
+//Task5 Daxil edilən müsbət ədədin 1-100 arasında olub-olmadığını tapan proqram yazın.
 
 // let num = parseInt(prompt("Eded daxil edin"))
 
@@ -121,8 +122,8 @@
 
 
 
-
-//Task6
+ 
+//Task6 Daxil edilən 3 müsbət ədədin ən böyüyünü tapan proqram yazın.
 // let num1 = parseInt(prompt("Birinci ededi daxil edin"))
 // let num2 = parseInt(prompt("Ikinci ededi daxil edin"))
 // let num3 = parseInt(prompt("Ucuncu ededi daxil edin"))
@@ -150,7 +151,8 @@
 
 
 
-//Task7
+//Task7 Tələbənin daxil etdiyi bala görə A B C D E F qiymətlərindən hansını aldığını müəyyənləşdirrən proqram yazın. 90 və yuxarı üçün "A", 80-89 üçün "B", 70-79 üçün "C", 60-69 üçün "D", 59 və daha aşağı qiymətlər üçün "F". Daxil edilən rəqəm müsbət, sıfırdan böyük və 100-dən kiçik olmalıdır.
+
 // let bal = parseInt(prompt("Telebenin bali"))
 
 // if (bal > 0) {
@@ -175,7 +177,8 @@
 
 
 
-//Task8
+//Task8 İstifadəçi yaşını daxil edir.Yaş 18-dən azdırsa "Yeniyetmə", 18-64 yaşdadırsa "Yetkin", 65 və daha yuxarıdırsa "Yaşlı" kimi çıxış edən proqram yazın.Ədəd müsbət olmalıdır.
+
 // let age = parseInt(prompt("Yasinizi daxil edin"))
 
 // if (age > 0) {
@@ -193,7 +196,7 @@
 
 // }
 
-//Task9 saati AM-e esasen yazmisam
+//Task9 Daxil edilən saata uyğun "Sabahınız xeyir", "Günortanız xeyir", "Axşamınız xeyir" yazan proqram yazın. Ədəd müsbət və 0-24 arasında olmalıdır. (saati AM-e esasen yazmisam)
 // let saat = parseInt(prompt("Saati yazin"))
 
 // if (saat > 0) {
@@ -212,9 +215,14 @@
 
 
 
-//Task10
+//Task10 Daxil edilən x və y ədədlərinin aşağıdakı şərtlərinə görə hesablamasını edən proqram yazın.
+
+// Əgər x>0 və y<0 isə 4x+2y+4 ifadəsini hesablayın.
+// Əgər x>0 və y=0 isə 2x-y+3 ifadəsini hesablayın. 
+// Əgər x<0 və y>0 isə 3x+4y+3 ifadəsini hesablayın.
+  
 // let x = 15;
-// let y = 10;
+// let y = -10;
 // let z = 0;
 // console.log("Ededler: ",x,y);
 
