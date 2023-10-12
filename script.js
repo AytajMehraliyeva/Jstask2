@@ -213,11 +213,21 @@
 
 
 //Task10
-let x = parseInt(prompt("Eded daxil edin"))
-let y = parseInt(prompt("Eded daxil edin"))
+// let x = 15;
+// let y = 10;
+// console.log("Ededler: ",x,y);
 
-
-
-if (x > 0 && y < 0) {
-    console.log(4 * x + 2 * y + 4)
-}
+// if (x > 0 && y < 0) {
+//   z = 4 * x + 2 * y + 4;
+//     console.log(z);
+// };
+// if(x>0 && y==0){
+// z = (2 * x) - y + 3;
+//     console.log(z);
+// };
+// if(x<0 && y>0){
+//     z = (3 * x) + (4 * y) + 3;
+//     console.log(z);    
+// }else{
+//     console.log("Şert odenmir")
+// }
